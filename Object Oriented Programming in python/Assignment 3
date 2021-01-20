@@ -1,0 +1,11 @@
+class Customer:
+    def __init__(self):
+        self.customer_name="Ram"
+        self.bill_amount=200
+        
+    def purchases(self):
+        amount=self.bill_amount*0.95
+        pays_bill(amount)
+        
+    def pays_bill(self,amount):
+        print(self.customer_name," pays bill amount of Rs. " ,amount)
