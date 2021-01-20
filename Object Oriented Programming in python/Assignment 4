@@ -1,0 +1,3 @@
+class: Vehicle
+attributes: premim_amount, vehicle_id, vehicle_type, vehicle_cost
+methods: calculate_premium(), display_vehicle_details(), __init__()
