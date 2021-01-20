@@ -1,0 +1,15 @@
+Customers:
+  customer_name
+  bill amount
+  purchases()
+  pays_bill(amount)
+  
+Item:
+  item_id
+  price_per_unit
+  description
+ 
+Employee:
+  designation
+  emp_name
+  
